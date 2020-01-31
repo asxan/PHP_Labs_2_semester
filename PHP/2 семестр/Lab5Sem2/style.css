@@ -1,0 +1,495 @@
+@keyframes my-animation {
+	0% {
+    background-position-y: -10px;
+  }
+
+
+  50% {
+    background-position-y: 306px;
+  }
+
+  100% {
+    background-position-y: 306px;
+  }
+}
+body {
+	width: 752px;
+	margin: 0 auto;
+	background-color: white;
+	font: 10px Verdana;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+H4 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.col1 {
+	float: left;
+	width: 538px;
+}
+.col2 {
+	float: left;
+	width: 212px;
+}
+.menu {
+	float: left;
+	font: 9px Arial;
+	color: white;
+	padding-top: 0.5px;
+	letter-spacing: 0.18em;
+}
+#MENU {
+	width: 175px;
+	float: left;
+	padding-top: 23px;
+	border: 1px #20207E;
+	border-left-style: solid;
+	margin-left: 4px;
+	border-bottom-style: solid;
+}
+#Hblue {
+	height: 35px;
+	background-color: #20207E;
+}
+#dentalPic {
+	width: 314px;
+	height: 22px;
+	float: right;
+	margin: 6px 40px;
+}
+#HelpAboutContact {
+	height: 51px;
+	background-color: #FF7D21;
+	border: 1px #20207E;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+#Slogan {
+	height: 78px;
+	font: 10px Verdana;
+	background-color: #FF7D21;
+	border: 1px #20207E;
+	border-bottom-style: solid;
+	overflow: hidden;
+	text-align: right;
+	padding: 1px 0 0 0;
+	line-height: 18px;
+	color: white;
+	letter-spacing: 0.7pt;
+}
+#date {
+	background-color: #FF7D21;
+	float: left;
+	height: 15px;
+	font: 8pt Verdana;
+	text-align: right;
+	color: white;
+	letter-spacing: 0.114em;
+}
+#Tooth {
+	position: absolute;
+}
+#DivWRadius {
+	height: 78px;
+	background-color: #FF7D21;
+	border-left: solid 1px;
+	border-color: #20207E;
+	border-radius: 0 0 15px 0;
+}
+#Search {
+	font: 7.8pt Verdana;
+	margin:5px 0 0 4px;
+	color: white;
+	float: left;
+	letter-spacing: 0.5pt;
+	text-transform: uppercase;
+}
+#SearchBox {
+	margin-top: 20px;
+	width: 147px;
+	height: 14px;
+	border: 1px solid black;
+}
+#OKbutton {
+	width: 50px;
+	height: 23px;
+	margin:7px 0 0 155px;
+	background-image: url(IMG/roundOK.png);
+}
+#OK {
+	font: bold 18px Arial;
+	float: left;
+	color: white;
+	padding-top: 3px;
+	margin-left: 13px;
+}
+#help {
+	background: url(IMG/Help.png) no-repeat;
+	width: 63px;
+	padding-top: 32px;
+	text-align: center;
+	margin: 3px 0 0 8px;
+}
+#aboutus {
+	width: 63px;
+	background: url(IMG/About.png) no-repeat;
+	text-align: center;
+	padding-top: 32px;
+	margin:3px 0 0 6px;
+}
+#contact {
+	width: 63px;
+	background: url(IMG/Contact.png) no-repeat;
+	text-align: center;
+	padding-top: 32px;
+	margin-top: 3px;
+	margin-left: 7px;
+}
+#orange {
+	height: 100%;
+	width: 180px;
+	background-color: #FF7D21;
+}
+.menuVert {
+	height: 15px;
+	display: block;
+	border: 1px #20207E;
+	font: bold 10.5px Verdana;
+	border-top-style: solid;
+	background-image: url(IMG/menuback.png);
+	padding: 2px 0 0 11px;
+	color: white;
+	letter-spacing: 0.1em;
+}
+#SpotlightFeatures {
+	float: left;
+	margin: 26px 0 0 4px;
+	background-color: white;
+	width: 172px;
+	height: 268px;
+}
+#OrSpot {
+	float: left;
+	width: 170px;
+	height: 31px;
+	margin: 1px 0 0 1px;
+	background-color: #FF7D21;
+}
+#Spotimg {
+	margin:4px 0 0 8px;
+	width: 59px;
+	height: 25px;
+}
+#SpotTitle {
+	padding: 10px 0 0 6px;
+	height: 20px;
+	position: absolute;
+	font: bold 11px Verdana;
+	margin: 5px 0 0 8px;
+	color: white;
+	letter-spacing: 0.1em;
+	background: url(IMG/Spotimg.png) no-repeat;
+}
+#Medicine {
+	margin-left: 17px;
+	height: 89px;
+	width: 136px;
+}
+#SpotlightText {
+	float: left;
+	margin-left: 5px;
+	font: 10px Verdana;
+	color: black;
+	letter-spacing: 0.125em;
+}
+#BlueSpace {
+	width: 551px;
+	height: 15px;
+	font: bold 10.2px Verdana;
+	background-color: #20207E;
+	margin:10px 0 0 13px;
+	padding: 1px 0 0 8px;
+	color: white;
+	letter-spacing: 0.1em;
+}
+#blueBorder1 {
+	width: 557px;
+	border: 1px solid #20207E;
+	margin-left: 13px;
+}
+#blueBorder2 {
+	float: right;
+	height: 100%;
+	width: 557px;
+	padding-bottom: 77px;
+	border: 1px solid #20207E;
+	border-top-style: none;
+	margin-left: 13px;
+}
+#BlueChips {
+	margin: 15px 40px 0 0;
+	float: right;
+	height: 247px;
+	width: 200px;
+	padding-bottom: 4px;
+}
+.BodyText {
+	float: right;
+	font: 11px Verdana;
+	line-height: 13px;
+	color: black;
+	margin: 14px 0 0 7px;
+	letter-spacing: 0.64pt;
+}
+.BlueTitle {
+	float: left;
+	font: bold 10.5px Verdana;
+	margin: 7px 0 0 7px;
+	color: #20207E;
+	letter-spacing: 0.075em;
+	text-transform: uppercase;
+}
+#SecondTitle {
+	text-transform: none;
+}
+#redirSpan
+{
+	float: left;
+	text-align: center;
+	font-size: 14px;
+	padding-top: 70px;
+	width: 560px;
+}
+#animated
+{
+	margin-left: 572px;
+    position: absolute;
+	height: 310px;
+	width: 53px;
+	background-image: url(IMG/Chip.png);
+    background-repeat: no-repeat;
+	background-position-y: -10px;
+	animation: my-animation 1.4s ease-in infinite;
+	
+}
+.clear {
+    content: "";
+    display: block;
+    float:none;
+    clear:both;
+}
+#formblock
+{
+	margin-left: 20px;
+	float: left;
+	width: 550px;
+}
+#tst
+{
+	float: left;
+}
+.formElem {
+    width:30%;
+    float: left;
+    margin: 10px;
+    font: normal 10px Verdana;
+	
+}
+.DateElem {
+    height: 20px;
+    width: 45px;
+    float: left;
+    margin-left: 10px;
+    font: normal 10px Verdana;
+	border-color: #20207E;
+	border-width: 1px;
+	border-style: solid;
+}
+.err {
+    width: 60%;
+    float: left;
+    color: red;
+    margin: 5px 0px 0px 0px;
+    font: normal 12px Verdana;
+}
+.formPart
+{
+	border-color: #20207E;
+	border-width: 1px;
+	border-style: solid;
+}
+#submit
+{
+	background-color: #FF7D21;
+	color: white;
+	float: left;
+	clear: both;
+}
+.formTitles
+{
+	margin-left: 10px;
+	font: normal 12px Verdana;
+}
+
+.file
+{
+	width: 540px;
+	line-height: 18px;
+	float: left;
+}
+.FMicon
+{
+	float: left;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+}
+.FMlastEdit
+{
+	float: left;
+	width: 100px;
+	margin-left: 27px;
+}
+.FMiandn
+{
+	float: left;
+	width: 150px;
+}
+
+.dental_motod {
+    margin-top: 10px;
+    padding: 10px;
+    box-shadow:  0 0 10px rgba(0,0,0,0.5);
+}
+.dental_motod:after{clear: both;content:" ";float: none; display: block;}
+
+.thumbnail{
+    height: 120px;
+}
+
+.dental_img_block{
+    clear: left;
+    float: left;
+    width: 120px;
+}
+
+.dental_info{
+    width: calc(53% - 30px);
+    padding: 0 10px;
+    margin-left:10px;
+    float: left;
+    height: 40px;
+}
+
+.dental_full_name{
+    font-family: Adobe Clean Medium;
+    font-size: 24px;
+	float: left;
+}
+#desc
+{
+	
+}
+.dental_name{
+    font-weight: 700;
+	
+}
+
+.dental_model{
+    margin-left: 5px;   
+}
+
+.dental_price{
+    background-color: #20207E;
+    text-align: center;
+    color: white;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 0px;
+	height: 20px;
+	float: left;
+	margin-left: 20px;
+	width: 200px;
+    padding: 5px 0;
+	
+}
+
+.dental_info table tr, .moto_info table td{
+    border: none;
+}
+
+.dental_info table tr td:last-child{
+    padding-left: 10px;
+}
+.details
+{
+	border-width: 1px;
+	border-style: solid;
+	float: left;
+	margin-left: 15px;
+	display: none;
+	width: 300px;
+}
+#size {
+    width: 560px;
+    height: 558px;
+    padding: 5px;
+    float: left;
+	border: 1px solid #20207E;
+	background: #FF7D21;
+	color: White;
+	font-style: oblique;
+	text-decoration: none;
+	overflow-y: scroll;
+	overflow-x: none;
+}
+#btn
+{
+	display: block;
+	float: left;
+	
+	margin-left: 15px;
+}
+#text-error-for-date
+{
+	float: left;
+	margin-left: 5px;
+	vertical-align: middle; 
+}
+#NameErr
+{
+	margin-top: 10px;
+}
+.categories
+{
+	width: 560px;
+    height: 558px;
+    padding: 5px;
+    float: left;
+	border: 1px solid #20207E;
+	background: #FF7D21;
+	color: White;
+	font-style: oblique;
+	text-decoration: none;
+	overflow-y: scroll;
+	overflow-x: none;
+}
+#catTitle
+{
+
+	font-size: 20px;
+	text-align: center;
+}
+hr
+{
+	margin: 0px;
+	height: 1px;
+	border: none;
+	color: #20207E;
+
+	background-color: #20207E;
+}

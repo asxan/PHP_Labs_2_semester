@@ -1,0 +1,99 @@
+
+CREATE TABLE Items_Type(
+	Id_Items_Type INT NOT NULL,
+	Type_Name VARCHAR(255) NULL,
+    PRIMARY KEY (Id_Items_Type)
+ );
+
+CREATE TABLE Items(
+	Id_Items int NOT NULL PRIMARY KEY,
+	Name VARCHAR(255) NULL,
+	Id_Items_Type int NULL,
+    PRIMARY KEY (Id_Items),
+    FOREIGN KEY(Id_Items_Type) REFERENCES Items_Type (Id_Items_Type)
+ );
+
+
+
+///
+ver1
+CREATE TABLE Items_Type(
+	Id_Items_Type INT NOT NULL PRIMARY KEY,
+	Type_Name VARCHAR(255) NULL
+ );
+
+CREATE TABLE Items(
+	Id_Items int NOT NULL PRIMARY KEY,
+	Name VARCHAR(255) NULL,
+	Id_Items_Type int NULL,
+    FOREIGN KEY(Id_Items_Type) REFERENCES Items_Type (Id_Items_Type)
+ );
+///
+ver2 extended
+
+CREATE TABLE Items_Type(
+	Id_Items_Type INT NOT NULL PRIMARY KEY,
+	Type_Name VARCHAR(255) NULL
+ );
+
+CREATE TABLE Items(
+	Id_Items int NOT NULL PRIMARY KEY,
+	Name VARCHAR(255) NULL,
+	brand VARCHAR(255) NULL,
+	prod_country VARCHAR(255) NULL,
+	price int NULL,
+	Id_Items_Type int NULL,
+	views int NULL,
+	serial_number VARCHAR(255) NULL,
+	prod_year int NULL,
+	image VARCHAR(255) NULL,
+	description text NULL,
+    FOREIGN KEY(Id_Items_Type) REFERENCES Items_Type (Id_Items_Type)
+ );
+
+CREATE TABLE Views_Stats(
+	dates DATE,
+	Id_Items INT NOT NULL,
+	views int NULL,
+	FOREIGN KEY(Id_Items) REFERENCES Items (Id_Items)
+ );
+
+INSERT INTO Items_Type(Id_Items_Type,Type_Name) VALUES ('1','Dental Unit');
+INSERT INTO Items_Type(Id_Items_Type,Type_Name) VALUES ('2','Ceramic');
+INSERT INTO Items_Type(Id_Items_Type,Type_Name) VALUES ('3','Spreader');
+INSERT INTO Items_Type(Id_Items_Type,Type_Name) VALUES ('4','Drill');
+INSERT INTO Items_Type(Id_Items_Type,Type_Name) VALUES ('5','Autoclave');
+INSERT INTO Items(Id_Items, Name, brand, prod_country, price, Id_Items_Type, views, serial_number, prod_year, image, description) VALUES ('1','Omnipractic', 'Gallant', 'Ukraine', '6480', '1', '0', 'AE0934106', '2017', 'http://dentalinfo.com.ua/uploads/thumbs/170_170_GALLANT_E_EU_Galit_Eco19_Tecnodent_1384515173.jpg', 'Description nasdnadadjasdbi bbuydasyvdashdyuf ghadvysavdyusavbdhavyv  vuysdvyuvdsuyavd');
+INSERT INTO Items(Id_Items, Name, brand, prod_country, price, Id_Items_Type, views, serial_number, prod_year, image, description) VALUES ('2','Light', 'Gallant', 'Ukraine', '4860', '1', '0', 'AA093306', '2018', 'http://dentalinfo.com.ua/uploads/thumbs/170_170_GALLANT_AIR_Galit_Sting_1384515862.jpg', 'Description nasdnadadjasdbi bbuydasyvdashdyuf ghadvysavdyusavbdhavyv  vuysdvyuvdsuyavd');
+INSERT INTO Items(Id_Items, Name, brand, prod_country, price, Id_Items_Type, views, serial_number, prod_year, image, description) VALUES ('3','Pro', 'Gallant', 'China', '7900', '1', '0', 'BC04106', '2018', 'http://dentalinfo.com.ua/uploads/thumbs/170_170_GALLANT_PRO__Galit_Eco19_Tecnodent_1384517170.jpg', 'Description nasdnadadjasdbi bbuydasyvdashdyuf ghadvysavdyusavbdhavyv  vuysdvyuvdsuyavd');
+INSERT INTO Items(Id_Items, Name, brand, prod_country, price, Id_Items_Type, views, serial_number, prod_year, image, description) VALUES ('4','Sirona', 'Dentsply', 'Japan', '7470', '1', '0', 'YU0906', '2014', 'http://dentalinfo.com.ua/uploads/thumbs/130_130_Treatment_Center_INTEGO_Dentsply_Sirona_1498488718.jpg', 'Description nasdnadadjasdbi bbuydasyvdashdyuf ghadvysavdyusavbdhavyv  vuysdvyuvdsuyavd');
+INSERT INTO Items(Id_Items, Name, brand, prod_country, price, Id_Items_Type, views, serial_number, prod_year, image, description) VALUES ('5','Interga', 'Dentsply', 'Germany', '11994', '1', '0', 'AK0983', '2015', 'http://dentalinfo.com.ua/uploads/thumbs/170_170_Treatment_Center_INTEGO_PRO_Dentsply_Sirona_1498488739.jpg', 'Description nasdnadadjasdbi bbuydasyvdashdyuf ghadvysavdyusavbdhavyv  vuysdvyuvdsuyavd');
+INSERT INTO Items(Id_Items, Name, brand, prod_country, price, Id_Items_Type, views, serial_number, prod_year, image, description) VALUES ('6','Sirona', 'Sinius', 'Italy', '24000', '1', '0', 'GH8965', '2017', 'http://dentalinfo.com.ua/uploads/thumbs/130_130_SINIUS_Sirona_Meridian_Ukraine_1384524593.jpg', 'Description nasdnadadjasdbi bbuydasyvdashdyuf ghadvysavdyusavbdhavyv  vuysdvyuvdsuyavd');
+INSERT INTO Items(Id_Items, Name, brand, prod_country, price, Id_Items_Type, views, serial_number, prod_year, image, description) VALUES ('7','AirPow', 'SoBiCa', 'Japan', '16000', '2', '0', 'NN9986FE', '2013', 'http://dentalinfo.com.ua/uploads/thumbs/130_130_APOZA_Sobica_100gr_1476300759.jpg', 'Description nasdnadadjasdbi bbuydasyvdashdyuf ghadvysavdyusavbdhavyv  vuysdvyuvdsuyavd');
+INSERT INTO Items(Id_Items, Name, brand, prod_country, price, Id_Items_Type, views, serial_number, prod_year, image, description) VALUES ('8','Light I', 'Wexlectric', 'Austria', '250', '3', '0', 'YF772344', '2014', 'http://dentalinfo.com.ua/uploads/thumbs/130_130_Waxlectric_light_1_Renfert_Ukraine_1535977382.jpg', 'Description nasdnadadjasdbi bbuydasyvdashdyuf ghadvysavdyusavbdhavyv  vuysdvyuvdsuyavd');
+INSERT INTO Items(Id_Items, Name, brand, prod_country, price, Id_Items_Type, views, serial_number, prod_year, image, description) VALUES ('9','Paro', 'Vector', 'China', '2900', '4', '0', 'LO989356', '2013', 'http://dentalinfo.com.ua/uploads/thumbs/130_130_VECTOR_durr_dental_meridian_1394879355.jpg', 'Description nasdnadadjasdbi bbuydasyvdashdyuf ghadvysavdyusavbdhavyv  vuysdvyuvdsuyavd');
+INSERT INTO Items(Id_Items, Name, brand, prod_country, price, Id_Items_Type, views, serial_number, prod_year, image, description) VALUES ('10','Extra S', 'Mocom', 'China', '2500', '5', '0', 'GFRK9876', '2007', 'http://dentalinfo.com.ua/uploads/thumbs/130_130_mocoma_exacta_s_1538073768.jpg', 'Description nasdnadadjasdbi bbuydasyvdashdyuf ghadvysavdyusavbdhavyv  vuysdvyuvdsuyavd');
+
+
+SELECT vendor.name AS 'Vendor Name', vendor_type.type AS 'Type', vendor_type.documents AS 'Documents' FROM vendor, vendor_type WHERE vendor.id_vendor_type = vendor_type.id_vendor_type ORDER BY vendor.name DESC;
+
+db_connect query('SELECT * FROM items_type ORDER BY Id_Items_Type ASC')
+db_item_type query("SELECT Id_Items, Name, brand, price FROM items WHERE Id_Items_Type IN (SELECT Id_Items_Type FROM items_type WHERE Type_Name = '$item_type') ORDER BY Name ASC");
+//Choosing items of same type
+SELECT Name, brand, price FROM items WHERE Id_Items_Type IN (SELECT Id_Items_Type FROM items_type WHERE Type_Name = 'Dental Appar')
+
+
+
+
+
+
+echo "<a href='db_item_type.php?item_type=$tests[Type_Name]' style = 'display: block; border-color: orange; border-width: 1px; border-style: solid; color: black;'>Name is $tests[Name]\n Price is $tests[price]</a>";
+
+update items set views = (select views from items where Id_Items = '1')+1 WHERE Id_Items = '1'
+
+
+
+select sum(views) from views_stats where Id_Items = '5' and dates BETWEEN DATE_ADD(CURDATE(), INTERVAL -7 DAY) and CURDATE()
+select sum(views) from views_stats where Id_Items = '5' and dates BETWEEN DATE_ADD(CURDATE(), INTERVAL -1 MONTH) and CURDATE()
+
+insert into views_stats(dates, Id_Items, views) values ('2019-04-18', '5', '16')

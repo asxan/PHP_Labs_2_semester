@@ -1,0 +1,16 @@
+<!ELEMENT items (item*)>
+<!ELEMENT item (model,display,price,cpu,serial_number,prod_year,image)
+<!ELEMENT model EMPTY>
+<!ELEMENT price EMPTY>
+<!ELEMENT cpu EMPTY>
+<!ELEMENT serial_number EMPTY>
+<!ELEMENT prod_year EMPTY>
+<!ATTLIST item name CDATA #REQUIRED>
+<!ATTLIST model value NMTOKEN #REQUIRED>
+<!ATTLIST price value NMTOKEN #REQUIRED>
+<!ATTLIST cpu value NMTOKEN #REQUIRED>
+<!ATTLIST serial_number value NMTOKEN #REQUIRED>
+<!ATTLIST prod_year value NMTOKEN #REQUIRED>
+<!ELEMENT display (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+>

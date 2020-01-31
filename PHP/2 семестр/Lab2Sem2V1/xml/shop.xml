@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE items [
+<!ELEMENT items (item+)>
+<!ELEMENT item (name,model,prod_country,price,type,serial_number,prod_year,image)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT prod_country (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT serial_number (#PCDATA)>
+<!ELEMENT prod_year (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+<!ATTLIST item id CDATA "0">
+]>
+<items>
+	<item id='1'>
+		<name>Gallant</name>
+		<model>Omnipractic</model>
+		<prod_country>Ukraine</prod_country>
+		<price>6480</price>
+		<type>Dental Unit</type>
+		<serial_number>AE0934106</serial_number>
+		<prod_year>2017</prod_year>
+		<image>http://dentalinfo.com.ua/uploads/thumbs/170_170_GALLANT_E_EU_Galit_Eco19_Tecnodent_1384515173.jpg</image>
+	</item>
+	<item id='2'>
+		<name>Gallant</name>
+		<model>Light</model>
+		<prod_country>Ukraine</prod_country>
+		<price>4860</price>
+		<type>Dental Unit</type>
+		<serial_number>AA093306</serial_number>
+		<prod_year>2018</prod_year>
+		<image>http://dentalinfo.com.ua/uploads/thumbs/170_170_GALLANT_AIR_Galit_Sting_1384515862.jpg</image>
+	</item>
+	<item id='3'>
+		<name>Gallant</name>
+		<model>Pro</model>
+		<prod_country>China</prod_country>
+		<price>7900</price>
+		<type>Dental Unit</type>
+		<serial_number>BC04106</serial_number>
+		<prod_year>2018</prod_year>
+		<image>http://dentalinfo.com.ua/uploads/thumbs/170_170_GALLANT_PRO__Galit_Eco19_Tecnodent_1384517170.jpg</image>
+	</item>
+	<item id='4'>
+		<name>Dentsply</name>
+		<model>Sirona</model>
+		<prod_country>Japan</prod_country>
+		<price>7470</price>
+		<type>Dental Unit</type>
+		<serial_number>YU0906</serial_number>
+		<prod_year>2014</prod_year>
+		<image>http://dentalinfo.com.ua/uploads/thumbs/130_130_Treatment_Center_INTEGO_Dentsply_Sirona_1498488718.jpg</image>
+	</item>
+	<item id='5'>
+		<name>Dentsply</name>
+		<model>Interga</model>
+		<prod_country>Germany</prod_country>
+		<price>11994</price>
+		<type>Dental Unit</type>
+		<serial_number>AK0983</serial_number>
+		<prod_year>2015</prod_year>
+		<image>http://dentalinfo.com.ua/uploads/thumbs/170_170_Treatment_Center_INTEGO_PRO_Dentsply_Sirona_1498488739.jpg</image>
+	</item>
+	<item id='6'>
+		<name>Sinius</name>
+		<model>Sirona</model>
+		<prod_country>Italy</prod_country>
+		<price>24000</price>
+		<type>Dental Unit</type>
+		<serial_number>GH8965</serial_number>
+		<prod_year>2017</prod_year>
+		<image>http://dentalinfo.com.ua/uploads/thumbs/130_130_SINIUS_Sirona_Meridian_Ukraine_1384524593.jpg</image>
+	</item>
+	<item id='7'>
+		<name>SoBiCa</name>
+		<model>AirPow</model>
+		<prod_country>Japan</prod_country>
+		<price>16 000</price>
+		<type>Ceramic</type>
+		<serial_number>NN9986FE</serial_number>
+		<prod_year>2013</prod_year>
+		<image>http://dentalinfo.com.ua/uploads/thumbs/130_130_APOZA_Sobica_100gr_1476300759.jpg</image>
+	</item>
+	<item id='8'>
+		<name>Wexlectric</name>
+		<model>Light I</model>
+		<prod_country>Austria</prod_country>
+		<price>250</price>
+		<type>Spreader</type>
+		<serial_number>YF772344</serial_number>
+		<prod_year>2014</prod_year>
+		<image>http://dentalinfo.com.ua/uploads/thumbs/130_130_Waxlectric_light_1_Renfert_Ukraine_1535977382.jpg</image>
+	</item>
+	<item id='9'>
+		<name>Vector</name>
+		<model>Paro</model>
+		<prod_country>China</prod_country>
+		<price>2900</price>
+		<type>Drill</type>
+		<serial_number>LO989356</serial_number>
+		<prod_year>2013</prod_year>
+		<image>http://dentalinfo.com.ua/uploads/thumbs/130_130_VECTOR_durr_dental_meridian_1394879355.jpg</image>
+	</item>
+	<item id='10'>
+		<name>Mocom</name>
+		<model>Extra S</model>
+		<prod_country>China</prod_country>
+		<price>2500</price>
+		<type>Autoclave</type>
+		<serial_number>GFRK9876</serial_number>
+		<prod_year>2007</prod_year>
+		<image>http://dentalinfo.com.ua/uploads/thumbs/130_130_mocoma_exacta_s_1538073768.jpg</image>
+	</item>
+</items>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE items SYSTEM "shop.dtd">
+<items>
+	<item name="REDMI NOTE 8 PRO 6/64GB">
+		<model value="NOTE 8 PRO 6/64GB"></model>
+		<price value="5559"></price>
+		<cpu value="Mediatek Helio G90T"></cpu>
+		<serial_number value="56 218722"></serial_number>
+		<prod_year value="2019"></prod_year>
+		<display>6,53 (IPS)</display>
+		<image>https://avic.ua/assets/cache/images/assets/files/products/218722/image/450x400-redmi-note-8-pro-green.jpg</image>
+	</item>
+	<item name="SAMSUNG GALAXY NOTE 10 8/256GB">
+		<model value="NOTE 10"></model>
+		<price value="18539"></price>
+		<cpu value="Exynos 9825"></cpu>
+		<serial_number value="41 217872"></serial_number>
+		<prod_year value="2019"></prod_year>
+		<display>6,3 (Dynamic AMOLED)</display>
+		<image>https://avic.ua/assets/cache/images/assets/files/products/217872/image/450x400-samsung-galaxy-note-10-8-256gb-aura-glow-1.jpg</image>
+	</item>
+	<item name="XIAOMI REDMI 8 3/32GB">
+		<model value="REDMI 8 3/32GB"></model>
+		<price value="2999"></price>
+		<cpu value="Qualcomm Snapdragon 439"></cpu>
+		<serial_number value="41 218758"></serial_number>
+		<prod_year value="2019"></prod_year>
+		<display>6,22 (IPS)</display>
+		<image>https://avic.ua/assets/cache/images/assets/files/products/218758/image/450x400-redmi-8-ruby-red-1.jpg</image>
+	</item>
+	<item name="APPLE IPHONE X 64GB">
+		<model value="IPHONE X 64GB"></model>
+		<price value="19899"></price>
+		<cpu value="Apple A11 Bionic"></cpu>
+		<serial_number value="72 236234"></serial_number>
+		<prod_year value="2018"></prod_year>
+		<display>5,8 (Super Retina HD), OLED</display>
+		<image>https://avic.ua/assets/cache/images/assets/files/products/34378/image/450x400-apple-iphone-x-silver-01.jpg</image>
+	</item>
+	<item name="APPLE IPHONE 11 PRO MAX 64GB">
+		<model value="IPHONE 11 PRO MAX 64GB"></model>
+		<price value="30599 "></price>
+		<cpu value="Apple A13 Bionic"></cpu>
+		<serial_number value="56 218498"></serial_number>
+		<prod_year value="2019"></prod_year>
+		<display>6,5 (Super Retina XDR), OLED</display>
+		<image>https://avic.ua/assets/cache/images/assets/files/products/218498/image/450x400-apple-iphone-11-pro-max-space-gray-1.jpg</image>
+	</item>
+	<item name="APPLE IPHONE 8 64GB">
+		<model value="IPHONE 8 64GB"></model>
+		<price value="12450"></price>
+		<cpu value="Apple A11 Bionic"></cpu>
+		<serial_number value="01 034325"></serial_number>
+		<prod_year value="2017"></prod_year>
+		<display>4,7 (HD-дисплей Retina)</display>
+		<image>https://avic.ua/assets/cache/images/assets/files/products/34325/image/450x400-apple-iphone-8-gold-02.jpg</image>
+	</item>
+
+</items>

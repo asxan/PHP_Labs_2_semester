@@ -1,0 +1,125 @@
+ body { 
+		width:780px;
+		height:700px;	
+   }
+
+
+
+HTML {
+		width:780px;
+		height:700px;
+		margin-top: 0px;
+  		margin-right: 0px;
+		margin-left: 0px;
+   		margin-bottom: 0px;
+  }
+
+
+   #size {
+     width: 530px;
+    height: 300px;
+    padding: 5px;
+    margin: 110px;
+	margin-left: 190px;
+	background: pink;
+	color: red;
+	font-style: oblique;
+	text-decoration: none;
+	overflow: scroll;
+}
+    A {
+    
+	font-size: 30px;
+	font-family: "Bookman Old Style";
+	color: blue;
+	font-style: italic;
+	text-decoration: none;
+   }
+       .home {
+		  color: blue;
+		  margin:0;
+		  padding:0;
+	position: relative;
+	font-size: 30px;
+	width: 90px;
+	height: 40px;
+	font-family: "Bookman Old Style";
+	font-style: italic;
+	background: white;
+	text-decoration: none;
+		}
+
+   #content {
+ width: 533px;
+    height: 260px;
+    padding: 5px;
+    margin: 10px;
+    padding-right: 30px;
+    float: right;
+}
+}
+
+
+	#list {
+    height: 40px;
+    overflow-y: auto;
+    padding: 10px;
+    
+}
+
+.moto_motod {
+    margin-top: 10px;
+    padding: 10px;
+    height: 170px;
+    box-shadow:  0 0 10px rgba(0,0,0,0.5);
+}
+
+.thumbnail{
+    height: 125px;
+}
+
+.moto_img_block{
+    clear: left;
+    float: left;
+    width: 220px;
+}
+
+.moto_info{
+    width: calc(53% - 30px);
+    padding: 0 10px;
+    margin-left:10px;
+    float: left;
+    height: 150px;
+}
+
+.moto_full_name{
+    font-family: Adobe Clean Medium;
+    font-size: 24px;
+}
+
+.moto_name{
+    font-weight: 700;
+}
+
+.moto_model{
+    margin-left: 5px;   
+}
+
+.moto_price{
+    background-color: #d9e11d;
+    text-align: center;
+    color: white;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+    padding: 5px 0;
+}
+
+.moto_info table tr, .moto_info table td{
+    border: none;
+}
+
+.moto_info table tr td:last-child{
+    padding-left: 10px;
+}
